@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '13966605-632d-4a7e-9d9a-761a6573cde1'
   imageRepository: 'hametotests'
   containerRegistry: 'acrtito.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/tests/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
