@@ -4,8 +4,8 @@ FROM httpd:latest
 # Set the working directory
 WORKDIR /usr/local/apache2/htdocs/
 
-# Copy the HTML files to the container
+# Copy the HTML files to the container ok
 COPY . .
 
 # Expose port 80 for the web app
-EXPOSE 80
+EXPOSE 80 
