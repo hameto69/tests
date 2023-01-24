@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-web-service
-        image: acrtito.azurecr.io/tests
+        image: acrtito.azurecr.io/tests:41
         ports:
         - containerPort: 80
 
