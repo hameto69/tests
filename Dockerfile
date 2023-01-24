@@ -1,3 +1,7 @@
+RUN curl -fsSL https://get.docker.com -o get-docker.sh
+RUN chmod +x get-docker.sh
+RUN sh get-docker.sh
+
 # Use an official Apache runtime as the base image
 FROM httpd:latest
 
